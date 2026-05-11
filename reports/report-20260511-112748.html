@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Server Report - farahamimah.net</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #1a1a2e; color: #eee; margin: 0; padding: 20px; }
+        h1 { color: #00d4ff; text-align: center; }
+        h2 { color: #00d4ff; border-bottom: 1px solid #444; padding-bottom: 5px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .card { background: #16213e; border-radius: 10px; padding: 20px; margin: 15px 0; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #0f3460; padding: 10px; text-align: left; }
+        td { padding: 8px 10px; border-bottom: 1px solid #333; }
+        .aktif { color: #00ff88; font-weight: bold; }
+        .nonaktif { color: #ff4444; font-weight: bold; }
+        .info { color: #aaa; font-size: 12px; text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🖥️ Auto Server Provisioning Report</h1>
+    <p style="text-align:center; color:#aaa;">2026-05-11 11:27:48 | server.farahamimah.net | 10.11.8.218</p>
+
+    <div class="card">
+        <h2>📋 Informasi Server</h2>
+        <table>
+            <tr><th>Item</th><th>Detail</th></tr>
+            <tr><td>Hostname</td><td>server.farahamimah.net</td></tr>
+            <tr><td>IP Address</td><td>10.11.8.218</td></tr>
+            <tr><td>Domain</td><td>farahamimah.net</td></tr>
+            <tr><td>OS</td><td>Debian GNU/Linux 12 (bookworm)</td></tr>
+            <tr><td>Kernel</td><td>6.1.0-47-amd64</td></tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>💾 Resource Sistem</h2>
+        <table>
+            <tr><th>Resource</th><th>Total</th><th>Digunakan</th><th>Bebas</th></tr>
+            <tr>
+                <td>RAM</td>
+                <td>1.9Gi</td>
+                <td>423Mi</td>
+                <td>1.5Gi</td>
+            </tr>
+            <tr>
+                <td>Disk</td>
+                <td>39G</td>
+                <td>2.4G</td>
+                <td>34G</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>⚙️ Status Layanan</h2>
+        <table>
+            <tr><th>Layanan</th><th>Status</th><th>Port</th></tr>
+            <tr><td>SSH Server (OpenSSH)</td><td><span class='aktif'>● AKTIF</span></td><td>22</td></tr>
+            <tr><td>DHCP Server</td><td><span class='nonaktif'>● TIDAK AKTIF</span></td><td>67</td></tr>
+            <tr><td>DNS Server (BIND9)</td><td><span class='aktif'>● AKTIF</span></td><td>53</td></tr>
+            <tr><td>Web Server (Apache2)</td><td><span class='aktif'>● AKTIF</span></td><td>80</td></tr>
+            <tr><td>Database (MariaDB)</td><td><span class='aktif'>● AKTIF</span></td><td>3306</td></tr>
+            <tr><td>Mail Server (Postfix)</td><td><span class='aktif'>● AKTIF</span></td><td>25</td></tr>
+            <tr><td>Dovecot IMAP/POP3</td><td><span class='aktif'>● AKTIF</span></td><td>143/110</td></tr>
+        </table>
+    </div>
+
+    <p class="info">
+        Dibuat oleh: farah1120 |
+        GitHub: github.com/farah1120/auto-server-provisioning |
+        2026-05-11 11:27:48
+    </p>
+</div>
+</body>
+</html>

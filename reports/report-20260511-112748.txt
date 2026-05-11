@@ -1,0 +1,61 @@
+==================================================
+  AUTO SERVER PROVISIONING - LAPORAN KONFIGURASI
+==================================================
+Tanggal   : 2026-05-11 11:27:48
+Hostname  : server.farahamimah.net
+IP Address: 10.11.8.218
+Domain    : farahamimah.net
+OS        : Debian GNU/Linux 12 (bookworm)
+Kernel    : 6.1.0-47-amd64
+--------------------------------------------------
+
+[RESOURCE SISTEM]
+CPU Usage : 0.0%
+RAM Total : 1.9Gi
+RAM Used  : 423Mi
+RAM Free  : 1.5Gi
+Disk Total: 39G
+Disk Used : 2.4G
+Disk Free : 34G
+
+[STATUS LAYANAN]
+SSH Server (OpenSSH)    : AKTIF
+DHCP Server             : TIDAK AKTIF
+DNS Server (BIND9)      : AKTIF
+Web Server (Apache2)    : AKTIF
+Database (MariaDB)      : AKTIF
+Mail Server (Postfix)   : AKTIF
+Mail Server (Dovecot)   : AKTIF
+
+[KONFIGURASI JARINGAN]
+    inet 127.0.0.1/8 scope host lo
+    link/ether bc:24:11:a8:00:1c brd ff:ff:ff:ff:ff:ff
+    inet 10.11.8.218/24 brd 10.11.8.255 scope global dynamic ens18
+
+[KONFIGURASI SSH]
+Port    : Port 22
+Protocol: 2
+
+[KONFIGURASI DNS]
+Domain  : farahamimah.net
+Zone    : /etc/bind/zones/db.farahamimah.net
+
+[KONFIGURASI WEB]
+DocumentRoot: /var/www/farahamimah.net/public_html
+VirtualHost : farahamimah.net
+
+[KONFIGURASI DATABASE]
+Engine  : MariaDB
+Database: provisioning_db
+User    : farah@localhost
+
+[KONFIGURASI MAIL]
+SMTP (Postfix)  : Port 25
+IMAP (Dovecot)  : Port 143
+POP3 (Dovecot)  : Port 110
+Maildir         : ~/Maildir
+
+==================================================
+  Dibuat oleh: farah1120
+  GitHub: github.com/farah1120/auto-server-provisioning
+==================================================
