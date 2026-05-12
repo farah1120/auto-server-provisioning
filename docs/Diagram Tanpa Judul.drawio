@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Halaman-1" id="uwJXt1p3V7ncDCFizWBp">
+    <mxGraphModel dx="1016" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ircp8dX2N39coJTd5OwS" name="Halaman-2">
+    <mxGraphModel dx="774" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-33" parent="1" style="rounded=1;fillColor=none;strokeColor=#00d4ff;dashed=1;" value="" vertex="1">
+          <mxGeometry height="220" width="400" x="210" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-17" edge="1" parent="1" source="NfjvXYn_TnSXqBgQfxqm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NfjvXYn_TnSXqBgQfxqm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="INTERNET" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-18" edge="1" parent="1" source="NfjvXYn_TnSXqBgQfxqm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NfjvXYn_TnSXqBgQfxqm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-3" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=light-dark(#00BEF2, #3abb78);shape=mxgraph.azure.laptop;pointerEvents=1;" value="Laptop / PC&lt;br/&gt;VMware Workstation Pro" vertex="1">
+          <mxGeometry height="60" width="112.5" x="343.75" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-19" edge="1" parent="1" source="NfjvXYn_TnSXqBgQfxqm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NfjvXYn_TnSXqBgQfxqm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-4" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="Proxmox VE 8.4&lt;br/&gt;IP: 192.168.1.20:8006" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-7" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(default, #3f92c6);" value="SSH :22" vertex="1">
+          <mxGeometry height="40" width="90" x="240" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DNS :53" vertex="1">
+          <mxGeometry height="40" width="90" x="355" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WEB :80" vertex="1">
+          <mxGeometry height="40" width="90" x="470" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DHCP :67" vertex="1">
+          <mxGeometry height="40" width="90" x="240" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SMTP :25" vertex="1">
+          <mxGeometry height="40" width="90" x="355" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IMAP :143" vertex="1">
+          <mxGeometry height="40" width="90" x="470" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MySQL :3306" vertex="1">
+          <mxGeometry height="40" width="90" x="355" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="POP3 :110" vertex="1">
+          <mxGeometry height="40" width="90" x="470" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="NfjvXYn_TnSXqBgQfxqm-34" edge="1" parent="1" source="NfjvXYn_TnSXqBgQfxqm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="NfjvXYn_TnSXqBgQfxqm-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
