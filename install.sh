@@ -43,9 +43,11 @@ echo -e "  ${GREEN}[5]${NC} Database Server (MySQL + phpMyAdmin)"
 echo -e "  ${GREEN}[6]${NC} Mail Server (Postfix + Dovecot)"
 echo -e "  ${GREEN}[7]${NC} Install SEMUA Layanan"
 echo -e "  ${GREEN}[8]${NC} Generate Laporan Konfigurasi"
+echo -e "  ${GREEN}[9]${NC} Konfigurasi Jaringan"
+echo -e "  ${GREEN}[10]${NC} Health Check Layanan"
 echo -e "  ${RED}[0]${NC} Keluar"
 echo ""
-read -p "Masukkan pilihan [0-8]: " choice
+read -p "Masukkan pilihan [0-10]: " choice
 
 case $choice in
     1) bash script/ssh/ssh-install.sh ;;
@@ -63,6 +65,8 @@ case $choice in
         bash script/mailserver/mail-install.sh
         ;;
     8) bash script/report.sh ;;
+    9) bash script/network-config.sh ;;
+    10) bash script/healthcheck/healthcheck.sh ;;
     0) echo -e "${RED}Keluar...${NC}"; exit 0 ;;
     *) echo -e "${RED}Pilihan tidak valid!${NC}"; exit 1 ;;
 esac
